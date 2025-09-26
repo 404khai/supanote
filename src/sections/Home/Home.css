@@ -58,6 +58,10 @@
     filter: blur(250px)
   } */
 }
+.heroImg{
+    /* border: 1px solid white; */
+    width: 90%;
+} 
 .heroTxtBox{
     width: 70%;
     height: 300px;
@@ -108,6 +112,3 @@
     font-size: 64px;
     color: rgba(221, 221, 221, 1);
 }
-/* .heroImg{
-    border: 1px solid white;
-} */

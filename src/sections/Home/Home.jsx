@@ -19,7 +19,7 @@ const Home = () => {
                     Icon={ChevronRight}
                 />
             </div>
-            <InfiniteMarqueeSlider/>
+            {/* <InfiniteMarqueeSlider/> */}
         </div>
         
         <div className='heroImgBox'>

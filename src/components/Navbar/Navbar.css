@@ -41,13 +41,13 @@
 .navBtn{
     width: 20%;
     height: 100%;
-    /* background-color: aquamarine; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
 .navBtnBtn{
+    font-size: 16px;
     border-radius: 8px;
     padding: 10px 8px;
     width: 94px;
