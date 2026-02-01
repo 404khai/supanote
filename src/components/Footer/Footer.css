@@ -80,5 +80,47 @@
 }
 .footerLinks p, .footerLogoBox p{
     color: rgba(255, 255, 255, 0.648);
-}   
+}
+
+@media (max-width: 768px) {
+    .footer {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .footerBody {
+        flex-direction: column;
+        height: auto;
+        gap: 30px;
+        padding-top: 20px;
+    }
+
+    .footerLogoBox, .footerLinks {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footerLogo {
+        justify-content: center;
+    }
+
+    .footerLinks {
+        align-items: center;
+    }
+
+    .footerTxt {
+        height: 100px;
+        margin-top: 30px;
+        position: relative;
+    }
+
+    .footerTxt h1 {
+        font-size: 60px;
+        bottom: 0;
+        position: relative;
+        left: 0;
+        transform: none;
+    }
+}
 

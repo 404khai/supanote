@@ -67,3 +67,49 @@
     color: rgba(239, 230, 253, 1);
     font-size: 18px;
 }
+
+@media (max-width: 768px) {
+    .features {
+        height: auto;
+        padding: 50px 0;
+    }
+
+    .featuresHead {
+        width: 90%;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    .featuresHead1 {
+        font-size: 32px;
+    }
+
+    .featureCards {
+        height: auto;
+        gap: 40px;
+    }
+
+    .featureCard {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+    }
+    
+    /* Reorder text and image for the second card so image is always last or first consistently. 
+       Currently card 2 has text first. Let's make all images come first or keep as is but stacked.
+       If we want image on top for all: */
+    .featureCard:nth-child(2) {
+        flex-direction: column-reverse;
+    }
+
+    .featureCard img {
+        width: 100%;
+    }
+
+    .featureTxt {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        align-items: center;
+    }
+}

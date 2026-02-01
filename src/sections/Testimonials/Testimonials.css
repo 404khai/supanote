@@ -37,3 +37,16 @@ grid-row-gap: 20px;
 .testimonial6 { 
     grid-area: 3 / 2 / 4 / 3; 
 }
+
+@media (max-width: 768px) {
+    .testimonials {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .testimonialGrid {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+}

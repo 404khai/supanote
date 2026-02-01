@@ -101,6 +101,40 @@
   color: #ffffff;
 }
 
+@media (max-width: 768px) {
+    .faqs {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .cta {
+        flex-direction: column;
+        height: auto;
+        padding: 30px 0;
+        gap: 30px;
+    }
+
+    .ctaBox {
+        width: 90%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ctaTxt {
+        height: auto;
+        align-items: center;
+    }
+    
+    .ctaTxt h3 {
+        font-size: 32px;
+    }
+
+    .ctaImg {
+        width: 80%;
+        height: auto;
+    }
+}
+
 .faq-content {
   background-color: #0f0f0f;
   padding: 0 30px;

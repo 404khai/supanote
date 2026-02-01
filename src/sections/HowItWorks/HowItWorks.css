@@ -70,3 +70,33 @@
     color: rgba(213, 213, 213, 1);
     font-size: 18px;
 }
+
+@media (max-width: 768px) {
+    .howitworks {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .howitworksHead {
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .howitworksHead1 {
+        font-size: 32px;
+    }
+
+    .workflow {
+        flex-direction: column;
+        height: auto;
+        gap: 40px;
+    }
+
+    .workflowCard {
+        width: 100%;
+    }
+
+    .workflowArrow {
+        transform: rotate(90deg);
+    }
+}

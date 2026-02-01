@@ -2,9 +2,13 @@
 import React from 'react';
 import './Button.css';
 
-const Button = ({ title, Icon, width, height, ...props }) => {
+const Button = ({ title, Icon, width, height, className, ...props }) => {
   return (
-    <button style={{width: width, height: height}} className="glassmorphic-btn" {...props}>
+    <button 
+      style={{width: width, height: height, maxWidth: '100%'}} 
+      className={`glassmorphic-btn ${className || ''}`} 
+      {...props}
+    >
       <span>{title}</span>
       {Icon && <Icon className="icon" />}
     </button>

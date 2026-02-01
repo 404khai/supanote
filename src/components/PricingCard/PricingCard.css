@@ -84,3 +84,16 @@
     cursor: pointer;
     transition: all 0.2s ease;
 }
+
+@media (max-width: 768px) {
+    .pricingCard {
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+        gap: 20px;
+    }
+    
+    .pricingCardBtn {
+        width: 80%;
+    }
+}

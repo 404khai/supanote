@@ -16,3 +16,15 @@
     /* border: 1px solid red; */
     gap: 32px;
 }
+
+@media (max-width: 768px) {
+    .pricing {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .pricingCards {
+        flex-direction: column;
+        height: auto;
+    }
+}
